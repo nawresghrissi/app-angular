@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 
+
 export const APP_ROUTES: Routes = [
 	{
 		path: 'auth',
@@ -12,4 +13,6 @@ export const APP_ROUTES: Routes = [
 	{
 		path: '**', redirectTo: 'auth', pathMatch: 'full',
 	},
+
+
 ];
